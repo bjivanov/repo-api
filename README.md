@@ -18,7 +18,7 @@ A guide for installing MongoDb can be found [here](https://docs.mongodb.com/manu
 
 ### Github
 Repo-api uses both GitHub GraphQl API v4 and Rest API v3.
-In order to use these you need to create an access token in your github account and set it to the env. variable `GITHUB_TOKEN`.
+In order to use these you need to create an access token in your github account and set it to the env. variable `GITHUB_TOKEN`. Token can be generated [here](https://github.com/settings/tokens).
 
 You can specify the GitHub organization for which you want to see pinned repos by setting env. variable `GITHUB_ORGANIZATION`, which defaults to `vmware`
 
